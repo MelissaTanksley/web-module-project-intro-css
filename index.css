@@ -56,10 +56,17 @@ table {
 
 body {
     font-family: 'Roboto Mono', monospace;
-    width:60%;
     margin:0 auto;
 }
    
+header {
+    width: 100%;
+
+}
+
+nav {
+    text-align: center;
+}
 
 .nav-container {
     margin: 0 10px;
@@ -73,10 +80,22 @@ body {
     
 }
 
+.cta {
+
+}
+
+.circle-container {
+    display: inline-block;
+}
+
+.guide-container {
+    display: inline-block;
+    width: 50%;
+}
+
 .image1 {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 25%;
     margin: none;
     padding: 40px; 
 }
@@ -127,4 +146,8 @@ h1 {
     text-decoration: none;
     margin-bottom: 20px;
     background-color: #FF764E;
+  }
+
+  footer {
+     width: 100%;
   }
