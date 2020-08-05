@@ -47,17 +47,18 @@ table {
 	border-spacing: 0;
 }
 
-body {
-background: red;
 
-}
 
 /* Beginning of Code */
 
 @import url(https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
 
-
+body {
+    font-family: 'Roboto Mono', monospace;
+    width:60%;
+    margin:0 auto;
+}
    
 
 .nav-container {
@@ -66,24 +67,34 @@ background: red;
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
-    color: ;
     text-decoration: none;
     margin-bottom: 20px;
     background-color: #FF764E;
     
 }
 
+.nav-container nav.one {
+    
+}
 
-.circle-container img {
+.image1 {
     border-radius: 50%;
     width: 400px;
     height: 400px;
-    margin: 20px;
-    padding: 20px; 
+    margin: none;
+    padding: 40px; 
+}
+
+image 2 {
+    width: 200px;
+}
+
+.para-container {
+    background: #DDB9A3
 }
 
 h1 {
-    font-family: 'Chelsea'; market;
+    font-family: 'Chelsea Market';
     margin: 20px 0;
     text-align: center;
     /*=======  Update the font size to 60px and center the text */
@@ -91,7 +102,7 @@ h1 {
   }
 
   h2 {
-    font-family: 'Roboto'; mono;
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 0;
     padding: 0 10px;
     text-align:center;
@@ -109,4 +120,15 @@ h1 {
 
   .img-container img {
       width: 100%;
+  }
+
+  .footer-container {
+    margin: 0 10px;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #FF764E;
   }
